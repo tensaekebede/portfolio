@@ -12,6 +12,11 @@ nav {
   height:5em; 
   display: inline;
   margin-top: 0;
+  border:3px solid bisque;
+  border-radius: 50px;
+}
+header{
+  height: 6em;
 }
 ul {
   list-style-type: none;
