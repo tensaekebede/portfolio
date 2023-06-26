@@ -3,7 +3,12 @@ html {
   display: flex;
   justify-content: center;
 }
+
+.brand{
+  height: 35px;
+}
 nav {
+  display: inline;
   position: fixed;
   top: 0;
   left: 0;
@@ -27,9 +32,7 @@ ul {
   background-color: beige;
   width: 105px;
 }
-#mesmer{
-  display: inline;
-}
+
 
 main {
   margin-top: 150px;
@@ -44,6 +47,7 @@ h1, h2, h3, p {
 h2.logo {
   color: rgb(82, 109, 130);
   font-family: 'Slackside One', cursive;
+  margin-top: 10px;
   margin-left: 20px;
   font-size:40px;
 }
@@ -86,8 +90,9 @@ button:hover {
 
 details {
   background-color: #f5f5dc57;
-  margin-left:90%;
-  display: inline;
+  display: block;
+  float: inline-end;
+  margin-top: 0;
 }
 
 header {
@@ -96,4 +101,10 @@ header {
 
 footer {
   text-align: center;
+}
+@media screen and (max-width: 600px) {
+  h2.logo {
+    font-size: 38px;
+  }
+
 }
