@@ -55,7 +55,7 @@ h2.logo {
 .column {
   width: 50%;
   margin-bottom: 16px;
-  padding: 0 8px;
+  padding: 8px;
 }
 
 .card {
@@ -106,5 +106,12 @@ footer {
   h2.logo {
     font-size: 25px;
   }
-
+  .column {
+    width: 80%;
+  }
+  main {
+    margin-top:80px;
+    margin-left: 15%;
+  }
+  
 }
