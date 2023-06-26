@@ -8,7 +8,6 @@ html {
   height: 35px;
 }
 nav {
-  display: inline;
   position: fixed;
   top: 0;
   left: 0;
@@ -29,13 +28,17 @@ ul {
   padding: 0;
 }
 .nav {
-  background-color: beige;
   width: 105px;
+  margin-left: 40px;
+}
+.mesmer{
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
-
 main {
-  margin-top: 150px;
+  margin-top: 105px;
   margin-left: 30%;
 }
 
