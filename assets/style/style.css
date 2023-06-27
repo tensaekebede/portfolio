@@ -4,37 +4,53 @@ html {
   justify-content: center;
 }
 
-.brand{
+summary {
+  margin-left: 35px;
+  position: fixed;
+  top: 4%;
+  right: 2%;
+  font-size: 27px;
+  color: darksalmon;
+}
+
+.nav {
+  margin-left: 92%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 212, 255);
+}
+
+details {
+  display: inline;
+}
+
+.brand {
   height: 35px;
 }
+
 nav {
   position: fixed;
   top: 0;
   left: 0;
   background-color: beige;
   width: 100%;
-  height:5em; 
+  height: 5em;
   display: inline;
   margin-top: 0;
-  border:3px solid bisque;
+  border: 3px solid bisque;
   border-radius: 50px;
 }
-header{
+
+header {
   height: 6em;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-.nav {
-  width: 105px;
-  margin-left: 40px;
-}
-.mesmer{
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
 main {
@@ -42,7 +58,10 @@ main {
   margin-left: 30%;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   color: rgb(39, 55, 77);
   font-family: 'Caveat', cursive;
 }
@@ -52,7 +71,8 @@ h2.logo {
   font-family: 'Slackside One', cursive;
   margin-top: 10px;
   margin-left: 20px;
-  font-size:40px;
+  font-size: 40px;
+  margin-bottom: 10px;
 }
 
 .column {
@@ -105,6 +125,7 @@ header {
 footer {
   text-align: center;
 }
+
 @media screen and (max-width: 600px) {
   h2.logo {
     font-size: 25px;
@@ -113,8 +134,30 @@ footer {
     width: 80%;
   }
   main {
-    margin-top:80px;
+    margin-top: 80px;
     margin-left: 15%;
   }
-  
+  summary {
+    position: fixed;
+    top: 5.4%;
+    right: 3%;
+    font-size: 19px;
+  }
+  .nav {
+    margin-left: 60%;
+  }
+}
+
+@media screen and (max-width: 962px) {
+  .nav {
+    margin-left: 85%;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .nav {
+    margin-top: 5px;
+    margin-left: 79%;
+    text-align: center;
+  }
 }
